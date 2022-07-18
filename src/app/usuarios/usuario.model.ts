@@ -1,6 +1,4 @@
-declare module namespace {
-
-  export interface Usuario {
+export interface Usuario {
       id: number;
       email: string;
       first_name: string;
@@ -15,4 +13,3 @@ declare module namespace {
       total_pages: number;
       data: Usuario[];
   }
-}

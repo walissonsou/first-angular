@@ -1,1 +1,13 @@
-<p>usuarios works!</p>
+<h1> Usuários </h1>
+<table *ngIf="resUser">
+  <thead>
+    <td> Nome </td>
+    <td> Sobrenome </td>
+  </thead>
+  <tbody>
+    <tr *ngFor=" let user of resUser.data">
+      <td>{{ user.first_name }}</td>
+      <td>{{ user.last_name}}</td>
+    </tr>
+  </tbody>
+</table>

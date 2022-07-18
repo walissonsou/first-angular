@@ -1,0 +1,9 @@
+table {
+  width: 100%
+}
+table thead{
+  background-color: blue;
+}
+table td {
+  border-top: 1px solid;
+}

@@ -5,7 +5,7 @@ import { ResponseUsuario } from './usuario.model'
 @Injectable({
   providedIn: 'root'
 })
-export class UsuariosusuarioService {
+export class UsuarioService {
 
   // PASSO 1
   // o método getUsers recebe o responseUsuario, e  a sintaxe
