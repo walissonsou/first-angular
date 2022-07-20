@@ -17,10 +17,25 @@ export interface Usuario {
     name: string;
     job: string;
 }
-   // create
+  // create
    export interface ResponseCreate {
     name: string;
     job: string;
     id: string;
     createdAt: Date;
+}
+
+  // modelos para o getUser ( 1 usuário)
+export interface ResponseUser {
+  data:Usuario
+}
+  // modelos para o update
+export interface RequestUpdate {
+  name: string;
+  job: string;
+}
+export interface ResponseUpdate {
+    name: string;
+    job: string;
+    updatedAt: Date;
 }

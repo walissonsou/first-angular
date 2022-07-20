@@ -8,11 +8,14 @@ import { AppComponent } from './app.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { CreateUsuarioComponent } from './usuarios/create-usuario/create-usuario.component';
 
+import { UpdateComponent } from './usuarios/update/update.component';
+
 @NgModule({
   declarations: [
     AppComponent,
     UsuariosComponent,
-    CreateUsuarioComponent
+    CreateUsuarioComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,
